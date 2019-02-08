@@ -122,7 +122,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		/* background: #312450; */
+		background: #B3B6B7;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -187,6 +188,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #ffffff;
+		/* color: black; */
 		font-weight: bold;
 	}
 
@@ -200,6 +202,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
+		/* color: black; */
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -1859,7 +1862,8 @@ input, select, textarea {
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
-		color: #ffffff !important;
+		/* color: #ffffff !important; */
+		color: black !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -1890,7 +1894,8 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
 			-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
 			transition: opacity 0.2s ease, transform 0.2s ease;
-			background: #ffffff;
+			/* background: #ffffff; */
+			background: black;
 			border-radius: 3em;
 			content: '';
 			height: 100%;
@@ -1939,7 +1944,8 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			/* color: #312450 !important; */
+			color: #B3B6B7 !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -1989,7 +1995,8 @@ input, select, textarea {
 			input[type="button"]:hover:active,
 			button:hover:active,
 			.button:hover:active {
-				border-color: #ffffff !important;
+				/* border-color: #ffffff !important; */
+				border-color: black !important;
 			}
 
 				input[type="submit"]:hover:active:after,
@@ -2335,6 +2342,7 @@ input, select, textarea {
 
 	label {
 		color: #ffffff;
+		/* color:black; */
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
@@ -2380,6 +2388,7 @@ input, select, textarea {
 		select:focus,
 		textarea:focus {
 			border-color: #ffffff;
+			/* border-color: #ffffff; */
 			box-shadow: 0 0 0 1px #ffffff;
 		}
 
@@ -2395,7 +2404,8 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #312450;
+			/* background: #312450; */
+			background: #B3B6B7;
 		}
 
 		select:focus::-ms-value {
@@ -2543,7 +2553,8 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			/* color: #312450; */
+			color: #B3B6B7;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2570,11 +2581,14 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					/* color: #b74e91; */
+					color: #1F353D;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					/* color: #953d75; */
+					color: #1F353D;
+
 				}
 
 /* Image */
@@ -3052,7 +3066,8 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				/* background: rgba(49, 36, 80, 0.9); */
+				background: #A3A199;
 				content: '';
 				display: block;
 				height: 100%;
@@ -3263,27 +3278,47 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			/* background-color: #261c3e; */
+			background-color: #A3A199;
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #3F6472;
+			/* background-color: #FFE991; */
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			/* background-color: #493382; */
+			/* background-color: #A3A199; */
+			/* background-color: #C9B460; */
+			background-color: #1F353D;
+
+
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			/* background-color: #A3A199; */
+			/* background-color: #C9B460; */
+			/* background-color: #FFE377; */
+			/* background-color: #40798C; */
+			/* background-color: #1F353D; */
+			background-color: #3F6472;
+			/* background-color: #5052b5; */
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #C9B460;
+			background-color: #FFE377;
+			/* background-color: #B3B6B7; */
+			/* background-color: #3e4094; */
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			/* background-color: #b74e91; */
+			background-color: #1F353D;
+			/* background-color: #40798C; */
+			/* background-color: #8AA4AD; */
+
 		}
 
 		.wrapper.style3-alt {
@@ -3401,7 +3436,8 @@ input, select, textarea {
 
 		#header > .title {
 			border: 0;
-			color: #ffffff;
+			/* color: #ffffff; */
+			color: black;
 			display: block;
 			font-size: 1.25em;
 			font-weight: bold;
@@ -3446,7 +3482,8 @@ input, select, textarea {
 						}
 
 						#header > nav > ul > li a.active {
-							color: #ffffff;
+							/* color: #ffffff; */
+							color: black;
 						}
 
 		@media screen and (max-width: 736px) {
@@ -3548,7 +3585,11 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		/* background: #312450; */
+		/* background: #B3B6B7; */
+		/* background: #F7F3E3; */
+		/* background: #1F353D; */
+		background: #3F6472;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3761,7 +3802,8 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			/* color: rgba(255, 255, 255, 0.35); */
+			color: black;
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3785,7 +3827,8 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				/* background: #3c2c62; */
+				background: #B3B6B7;
 			}
 
 			#sidebar nav a:after {
@@ -3802,10 +3845,12 @@ input, select, textarea {
 
 			#sidebar nav a:hover {
 				color: rgba(255, 255, 255, 0.55);
+				color: black;
 			}
 
 			#sidebar nav a.active {
-				color: #ffffff;
+				/* color: #ffffff; */
+				color: black;
 			}
 
 				#sidebar nav a.active:after {
@@ -3898,7 +3943,12 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		/* background-image: url("images/intro.svg"); */
+		/* background-color: #6F99A8; */
+		/* background-color: #C9B460; */
+		/* background-color: #FFE991; */
+		/* background-color: #40798C; */
+		background-color: #1F353D;
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
